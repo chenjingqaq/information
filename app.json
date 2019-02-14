@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/home/test",
+    "pages/community/community",
+    "pages/nearby/nearby",
+    "pages/nearby/datail/datail",
+    "pages/index/index",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "几个亿的大项目",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/tabbar/home.png",
+        "selectedIconPath": "/images/tabbar/homeSelected.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "/images/tabbar/community.png",
+        "selectedIconPath": "/images/tabbar/communitySelected.png"
+      },
+      {
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近",
+        "iconPath": "/images/tabbar/nearby.png",
+        "selectedIconPath": "/images/tabbar/nearbySelected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tabbar/my.png",
+        "selectedIconPath": "/images/tabbar/mySelected.png"
+      }
+    ],
+    "color": "#bfbfbf",
+    "selectedColor": "#515151"
+  }
+}

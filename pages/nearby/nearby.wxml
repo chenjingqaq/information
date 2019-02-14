@@ -1,0 +1,18 @@
+<view class="containter">
+  <view class="navigate"></view>
+  <!-- <block wx:for="{{postList}}" wx:for-item="item"     wx:for-index="idx"> -->
+  <view class="content" catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+    <view class="up">
+    <text class="heading">领票福利 | 中南大学2019新年音乐会，来梅溪湖享受一场动人心弦的音乐会，咕噜咕锅炉工</text>
+    </view>
+    <view class="down">
+      <view class="left">
+      <text class="subheading">湘雅元旦晚会 | 歌萦湘水，雅韵常新。</text>
+      </view>
+      <view class="right">
+        <image class="mini" src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550726587&di=e01c6dd432625341cd0b07c81c6cdb5f&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2Fdcc451da81cb39dbef94259fda160924aa1830a6.jpg'></image>
+      </view>
+    </view>
+  </view>
+  <!-- </block> -->
+</view>
